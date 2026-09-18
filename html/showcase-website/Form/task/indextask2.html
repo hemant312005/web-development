@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset style="margin: auto; border: 2px solid black; width: 400px">
+      <h1>Pizza Order Form</h1>
+      <br />
+      <label for="firstname"> <b>First Name: </b></label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        style="border: 2px solid black"
+      />
+      <br />
+      <br />
+      <label for="Lastname"> <b>Last Name:</b></label>
+      <input
+        type="text"
+        name="lastname"
+        id="lastname"
+        style="border: 2px solid black"
+      />
+      <br />
+      <br />
+      <label for="email"><b>Email Address:</b></label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        style="border: 2px solid black"
+      />
+      <br />
+      <br />
+      <label for="number"><b>Contact Number:</b></label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        style="border: 2px solid black"
+      />
+      <br />
+      <br />
+      <label for="date"><b>preferred Delivery Date:</b></label>
+      <input
+        type="date"
+        name="date"
+        id="date"
+        style="border: 2px solid black"
+      />
+      <div>
+        <label><b>Size:</b></label>
+      </div>
+      <div>
+        <input type="radio" name="size" value="small" />
+        <span>Small</span>
+        <input type="radio" name="size" value="medium" />
+        <span>Medium</span>
+        <input type="radio" name="size" value="large" />
+        <span>Large</span>
+      </div>
+      <br />
+      <label><b>Flavor:</b></label>
+      <div>
+        <input
+          type="checkbox"
+          name="flavor"
+          value="Hawaiian(php 150.00)"
+          min="0"
+          max="10"
+        />
+        <span>Hawaiian (php 150.00)</span>
+        <input type="number" name="quantity" min="0" max="10" />
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          name="flavor"
+          value="Hawaiian(php 150.00)"
+          min="0"
+          max="10"
+        />
+        <span>Pepperoni (php 140.00)</span>
+        <input type="number" name="quantity" min="0" max="10" />
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          name="flavor"
+          value="Hawaiian(php 150.00)"
+          min="0"
+          max="10"
+        />
+        <span>Vegetable (php 130.00)</span>
+        <input type="number" name="quantity" min="0" max="10" />
+      </div>
+      <br />
+      <div>
+        <label for="number"><b>Credit Card Number:</b></label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          style="border: 2px solid black"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="pin"><b>PIN:</b></label>
+        <input
+          type="number"
+          name="pin"
+          id="pin"
+          style="border: 2px solid black"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="notes"><b>Additional Note</b></label> <br />
+        <textarea
+          name="note"
+          id="notes"
+          style="border: 2px solid black"
+        ></textarea>
+      </div>
+      <br />
+      <button style="border: 2px solid black"><b>Submit Order</b></button>
+    </fieldset>
+  </body>
+</html>
