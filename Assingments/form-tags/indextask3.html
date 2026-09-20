@@ -1,71 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <fieldset style="margin:auto; width:px; border:2px solid black">
-       <h1>Regestation Form</h1>
-       ofcourse, all submitted information is kept in the strictest confidence  <br>You always retain control of your information with D.W.Simpson & Co. <br><b>Our services are always at no cost to you.</b>
-       <br>
-       <br>
-       <div>
+  </head>
+  <body>
+    <fieldset style="margin: auto; width: px; border: 2px solid black">
+      <h1>Regestation Form</h1>
+      ofcourse, all submitted information is kept in the strictest confidence
+      <br />You always retain control of your information with D.W.Simpson & Co.
+      <br /><b>Our services are always at no cost to you.</b>
+      <br />
+      <br />
+      <div>
         <label for="name"><b>Name</b></label>
-        <input type="text" name="name" id="name">
-       </div>
-       <br>
-       <div>
+        <input type="text" name="name" id="name" />
+      </div>
+      <br />
+      <div>
         <label for="address"><b>Address:</b></label>
-        <input type="text" name="address" id="address">
-       </div>
-       <br>
-       <div>
+        <input type="text" name="address" id="address" />
+      </div>
+      <br />
+      <div>
         <label for="city"><b>City:</b></label>
-        <input type="text" name="city" id="city">
-        <label for="address" style="margin-left: 5ch;"><b>State/Province:</b></label>
-        <input type="text" name="address" id="address" >
-       </div>
-       <br>
-       <div>
+        <input type="text" name="city" id="city" />
+        <label for="address" style="margin-left: 5ch"
+          ><b>State/Province:</b></label
+        >
+        <input type="text" name="address" id="address" />
+      </div>
+      <br />
+      <div>
         <label for="zipcode"><b>Zip Code:</b></label>
-        <input type="number" name="zipcode" id="zipcode">
-       </div>
-       <br>
-       <div>
+        <input type="number" name="zipcode" id="zipcode" />
+      </div>
+      <br />
+      <div>
         <label for="country"><b>Country:</b></label>
-        <input type="country" name="country" id="country">
-       </div>
-       <br>
-       <div>
+        <input type="country" name="country" id="country" />
+      </div>
+      <br />
+      <div>
         <label for="number"><b>Phone:(H)</b></label>
-        <input type="number" name="number" id="number">
-         <label for="fax:"><b>Fax:</b></label>
-        <input type="number" name="fax" id="fax">
-       </div>
-       <br>
-       <div>
-         <label for="number"><b>Phone:(W)</b></label>
-         <input type="number" name="number" id="number">(if able to speak freely)
-       </div>
-        <br>
-        <div>
-            <label for="email"><b>Email:</b></label>
-            <input type="email" name="email" id="email">
-        </div>
-         <br>
-        <div>
-            <label for="name"><b>Company Name:</b></label>
-            <input type="email" name="email" id="email">(optional)
-        </div>
-        <div>
-            <label for="Desired Region"></label>
-            <select name="other" id=""></select>
-        </div>
-        <div>
-            <label for=""></label>
-        </div>
+        <input type="number" name="number" id="number" />
+        <label for="fax:"><b>Fax:</b></label>
+        <input type="number" name="fax" id="fax" />
+      </div>
+      <br />
+      <div>
+        <label for="number"><b>Phone:(W)</b></label>
+        <input type="number" name="number" id="number" />(if able to speak
+        freely)
+      </div>
+      <br />
+      <div>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="name"><b>Company Name:</b></label>
+        <input type="email" name="email" id="email" />(optional)
+      </div>
+      <br /><br />
+
+      <label for="region">Desired Region:</label>
+
+      <select id="region" name="region">
+        <option value="">Select Region</option>
+        <option value="north">North</option>
+        <option value="south">South</option>
+        <option value="east">East</option>
+        <option value="west">West</option>
+        <option value="central">Central</option>
+      </select>
+
+      <label for="otherRegion">Other:</label>
+
+      <input type="text" id="otherRegion" name="otherRegion" />
+
+      <br /><br />
+
+      <b>Professional designations earned:</b>
+
+      <br />
+
+      <input
+        type="checkbox"
+        id="collegeStudent"
+        name="designation"
+        value="College Student"
+      />
+
+      <label for="collegeStudent"> College Student </label>
+
+      <input
+        type="checkbox"
+        id="actuarialStudent"
+        name="designation"
+        value="Actuarial Student"
+      />
+
+      <label for="actuarialStudent"> Actuarial Student </label>
+
+      <input type="checkbox" id="acas" name="designation" value="ACAS" />
+
+      <label for="acas">ACAS</label>
+
+      <input type="checkbox" id="fcas" name="designation" value="FCAS" />
+
+      <label for="fcas">FCAS</label>
+
+      <br />
+
+      <input type="checkbox" id="asa" name="designation" value="ASA" />
+
+      <label for="asa">ASA</label>
+
+      <input type="checkbox" id="fsa" name="designation" value="FSA" />
+
+      <label for="fsa">FSA</label>
+
+      <input type="checkbox" id="ea" name="designation" value="EA" />
+
+      <label for="ea">EA</label>
+
+      <input type="checkbox" id="cfa" name="designation" value="CFA" />
+
+      <label for="cfa">CFA</label>
+
+      <input type="checkbox" id="mba" name="designation" value="MBA" />
+
+      <label for="mba">MBA</label>
+
+      <br /><br />
+
+      <label for="otherDesignation">
+        Other <br />
+        Designation:
+      </label>
+
+      <input type="text" id="otherDesignation" name="otherDesignation" />
+
+      <br /><br />
+
+      <div align="center">
+        <button type="submit">Submit</button>
+
+        <button type="reset">Reset</button>
+      </div>
     </fieldset>
-</body>
+  </body>
 </html>

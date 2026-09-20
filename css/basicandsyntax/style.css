@@ -1,0 +1,16 @@
+/* selector universal * */
+*{
+    background-color:aquamarine ;
+}
+/* class selector .classname */
+.kuchbhiclass{
+    background-color: blue;
+}
+/* idselctor # highest priority */
+#idbutton{
+    background-color: rgb(3, 39, 39);
+}
+/* tag selector direct tag name */
+h1{
+    background-color:#143f84;
+}

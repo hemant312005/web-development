@@ -1,43 +1,155 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <fieldset>
-          <h6>ASSIGNMENT SHOWCASE WEBSITE</h6>
-    </fieldset>
-    <fieldset>
-        <table border="1" cellspacing="0">
-            <tr>
-                <th>sno</th>
-                <th>topics</th>
-                <th>links</th>
+  </head>
+  <body>
+    <header>
+    <table bgcolor="lightblue" width="100%">
+        <tr>
+            <td>
+                <center> <h2>ASSIGNMENT SHOWCASE WEBSITE</h2></center>
+            </td>
+        </tr>
+    </table>
+</header>
+ <table bgcolor="lightgreen" width="100%">
+  <tr>
+    <td>
+        <marquee behavior="left" direction="right"><b>welcome to my website</b></marquee>
+    </td>
+  </tr>
+ </table>
+ <nav>
+    <table width="100%" bgcolor="lightblue" border="0" cellpadding="10">
+        <tr align="center">
+            <td>
+                <a href="#profile"><b>Profile</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                <a href="#connection"><b>Connections</b></a>
+            </td>
+        </tr>
+    </table>
+</nav>
+        <table border="3" cellspacing="1" cellpadding="20" width="100%">
+          <tr bgcolor="darkblue">
+            <th><font color="white">S.No</font></th>
+            <th><font color="white">TOPICS</font></th>
+            <th><font color="white">NO OF TASKS</font></th>
+            <th><font color="white">LINKS</font></th>
+          </tr>
+          <tr>
+            <td align="center">1</td>
+            <td align="center">Basic</td>
+            <td align="center">3</td>
+            <td><a href="./basic/basicindex.html">click to open</a></td>
+          </tr>
+          <tr bgcolor="lightcyan">
+            <td align="center">2</td>
+            <td align="center">Lists</td>
+            <td align="center">6</td>
+            <td><a href="./List/listindex.html">click to open</a></td>
+          </tr>
+          <tr>
+            <td align="center">3</td>
+            <td align="center">Forms</td>
+            <td align="center">6</td>
+            <td><a href="./Form/formindex.html">click to open</a></td>
+          </tr>
+          <tr bgcolor="lightcyan">
+            <td align="center">4</td>
+            <td align="center">Tables</td>
+            <td align="center">7</td>
+            <td><a href="./Table/tableindex.html">click to open</a></td>
+          </tr>
+        </table>
+        <fieldset bgcolor="aliceblue">
+    <center>
+        <h2>Assignment Progress</h2>
+
+        <table border="1" cellspacing="0" cellpadding="12" width="700px">
+
+            <tr bgcolor="darkblue">
+                <th><font color="white">S.No</font></th>
+                <th><font color="white">Topic</font></th>
+                <th><font color="white">Completed</font></th>
+                <th><font color="white">Total Tasks</font></th>
+                <th><font color="white">Completed</font></th>
             </tr>
+
             <tr>
-                <td>1</td>
-                <td>basic</td>
-                <td><a href="./basic/basicindex.html">click to open</a></td>
+                <td align="center">1</td>
+                <td>Basic HTML</td>
+                <td align="center">3</td>
+                <td align="center">3</td>
+                <td align="center">3 / 3</td>
             </tr>
-            <tr>
-                <td>2</td>
-                <td>basic</td>
-                <td><a href="./basic/basicindex.html">click to open</a></td>
+
+            <tr bgcolor="lightcyan">
+                <td align="center">2</td>
+                <td>Forms</td>
+                <td align="center">8</td>
+                <td align="center">8</td>
+                <td align="center">8 / 8</td>
             </tr>
+
             <tr>
-                <td>3</td>
-                <td>basic</td>
-                <td><a href="./basic/basicindex.html">click to open</a></td>
+                <td align="center">3</td>
+                <td>Tables</td>
+                <td align="center">7</td>
+                <td align="center">7</td>
+                <td align="center">7 / 7</td>
             </tr>
-            <tr>
-                <td>4</td>
-                <td>basic</td>
-                <td><a href="./basic/basicindex.html">click to open</a></td>
+
+            <tr bgcolor="lightcyan">
+                <td align="center">4</td>
+                <td>Media & Links</td>
+                <td align="center">6</td>
+                <td align="center">6</td>
+                <td align="center">6 / 6</td>
             </tr>
         </table>
-    </fieldset>
-    <fieldset></fieldset>
-</body>
+    </center>
+</fieldset>
+    <table border="1" width="100%" bgcolor="lightblue" cellpadding="15" id="profile">
+
+        <tr>
+            <td width="33%" align="center" valign="middle" bgcolor="lightgreen">
+                <details>
+                    <summary><b>My Profile</b></summary>
+
+                    <p>Name: Hemant Singh Rajawat</p>
+                    <p>Course: MERN Full Stack</p>
+                    <p>Batch: 10</p>
+                </details>
+            </td>
+
+            <td width="34%" align="center" valign="middle" bgcolor="lightblue">
+                <img src="./hemantphoto.jpg"
+                     alt="My Image"
+                     width="150">
+            </td>
+
+            <td width="33%" align="center" valign="middle" bgcolor="lightgreen" id="connection">
+                <details>
+                    <summary><b>My Connection</b></summary>
+
+                    <p><a href="https://github.com/hemant312005" target="blank">GitHub</a></p>
+                    <p><a href="https://www.linkedin.com/in/hemant-singh-rajawat-124626385/" target="blank">LinkedIn</a></p>
+                    <p>
+                        <a href="https://leetcode.com/u/hemant312005/" target="blank">leetcode</a>
+                    </p>
+                </details>
+            </td>
+        </tr>
+
+    </table>
+</footer>
+    <table width="100%" bgcolor="lightblue">
+        <tr><center> 2026 Made by Hemant Singh Rajawat</center></tr>
+    </table>
+  </body>
 </html>
