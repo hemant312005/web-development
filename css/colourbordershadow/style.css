@@ -1,0 +1,47 @@
+
+body {
+  background-color: rgba(199, 186, 169, 0.743);
+}
+
+.main {
+  background-color: rgb(216, 217, 217);
+}
+
+#card {
+  background-color: cornsilk;
+  width: 500px;
+  height: 300px;
+  border: 1px solid #000;
+
+  h3 {
+    color: rgb(234, 161, 4);
+  }
+}
+
+#card p {
+  background-color: blue;
+  color: red;
+  border: 5px groove rgb(0, 0, 0);
+  height: 230px;
+  overflow: auto;
+}
+
+#clickBtn {
+  background-color: #c0f7c3;
+  /* border: 1px solid #01ff0d; */
+  border-color: #01ff0d;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px 1px gray;
+}
+
+/* #clickBtn:hover {
+  background-color: white;
+  color: #ff4d01;
+}
+
+#clickBtn:active {
+  background-color: #01ff0d;
+  color: white;
+} */
