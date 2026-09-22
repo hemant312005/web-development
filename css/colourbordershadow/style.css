@@ -36,7 +36,7 @@ body {
   box-shadow: 1px 1px 2px 1px gray;
 }
 
-/* #clickBtn:hover {
+#clickBtn:hover {
   background-color: white;
   color: #ff4d01;
 }
@@ -44,4 +44,5 @@ body {
 #clickBtn:active {
   background-color: #01ff0d;
   color: white;
-} */
+} 
+ 

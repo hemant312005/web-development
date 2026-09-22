@@ -1,0 +1,28 @@
+#d
+{
+width: 20px;
+border:10px;
+height: 10px;
+margin: 20px;
+padding: 30px;
+}
+.d
+{
+    display: inline-block;
+}
+span
+{
+    border:2px solid black
+}
+.h
+{
+    display: inline-block;
+    border:2px solid black;
+    width: 230px;
+    background-color: rgb(126, 85, 165);
+    margin:10px;
+    text-align: center;
+    height: 200px;
+    border: radius 10px;
+    padding:10px;
+}
