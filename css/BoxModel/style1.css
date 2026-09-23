@@ -1,0 +1,41 @@
+* {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #a {
+  width: 500px;
+  border: 1px solid #000;
+}
+
+#h {
+  width: 100vw;
+  border: 1px solid #000;
+}
+
+.d {
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+}
+*/
+.e {
+  /* display:grid; */
+  /* grid-template-columns:1fr 1fr; */
+  margin: 10;
+
+}
+.e div {
+    display: inline-block;
+  width: 35%;
+  height: 200px;
+  border: 1px solid #000;
+  margin: 20px;
+  padding: 60px;
+} 
