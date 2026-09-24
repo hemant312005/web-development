@@ -1,0 +1,32 @@
+.outer
+{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    row-gap:6px; 
+}
+.outer2
+{
+display:grid;
+grid-template-columns: auto auto auto auto;
+row-gap:6px;   
+}
+.outer3
+{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    row-gap:6px;
+}
+.last
+{
+display:grid;
+grid-template-columns: 140px 200px 130px 200px; 
+row-gap:6px;
+}
+#btn{
+    margin-top:20px;
+    margin-left:50%;
+    font-size:30px;
+    button{
+        font-size:15px;
+    }
+}
