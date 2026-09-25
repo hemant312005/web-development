@@ -5,35 +5,35 @@
 }
 #header
 {
-    background-color: aqua;
-    padding:5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
+    background-color: rgba(166, 76, 93, 0.684);
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
     top:10px;
-    /* fix position*/
 }
-#menu{
+ #menu{
 display:flex;
-gap: 5px;
-align-items: center;
+gap:5px;
+align-items:center;
 }
+
 #menu button{
-display:flex;
-padding:5px 10px;
-gap: 5px;
-align-items: center;
-border-radius:5px;
+/* display:flex; */
+padding:8px 15px;
+/* gap: 5px; */
+/* align-items: center; */
+border-radius:10px;
 }
 #askme
 {
  
-    padding: 20px 70px;
-    background-color: rgb(108, 23, 23);
-    border:1px solid rgb(186, 139, 139);
+     padding: 3px 6px;
+    background-color: rgb(144, 199, 200);
+    border:1px solid rgb(127, 66, 66);
     border-radius:5px;
-    position:fixed;
-    bottom:70px;
+    position:sticky;
+    bottom:10px; */
     
 }   
