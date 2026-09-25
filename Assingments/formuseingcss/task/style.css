@@ -26,7 +26,8 @@ row-gap:6px;
     margin-top:20px;
     margin-left:50%;
     font-size:30px;
-    button{
+    button
+    {
         font-size:15px;
     }
 }
