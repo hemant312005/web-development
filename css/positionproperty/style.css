@@ -12,6 +12,7 @@
     align-items:center;
     position:sticky;
     top:10px;
+    z-index:99;
 }
  #menu{
 display:flex;
@@ -34,6 +35,16 @@ border-radius:10px;
     border:1px solid rgb(127, 66, 66);
     border-radius:5px;
     position:sticky;
-    bottom:10px; */
+    bottom:10px; 
     
-}   
+} 
+#section
+{
+    display:flex;
+    gap:20px
+}  
+#ricr
+{
+    width:fit;
+    height:inherit;
+}

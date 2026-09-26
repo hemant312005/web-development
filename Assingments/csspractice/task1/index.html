@@ -4,33 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task1</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"rel="stylesheet"/>
   </head>
   <body>
-    <div>
-      <div>
+    <div class="main">
+      <div class="first">
         <h3>Login</h3>
         <br />
-        <div >
+        <div id="div">
             <i class="ri-mail-line"></i>
             <input type="email" placeholder="Enter your email"/>
         </div>
-        <div>
+        <div id="div">
             <i class="ri-lock-line"></i>
             <input type="password" placeholder="confirm a password">
             <i class="ri-eye-close-line"></i>
         </div>
-        <div>
+        <div id="Remember">
            <input type="checkbox">
-           <label >Remember me</label>
-
+           <div>
+           <label >remember me</label>
+            <a href="">Forget password?</a>
+           </div>
         </div>
+          <div>
+            <button>Login Now</button>
+          </div>
+          <div id="last">
+            <h6>Don't have an account?</h6>
+            <a href="">Signup Now</a>
+          </div>
       </div>
-      <div></div>
+      <div class="second">
+        <h2>Registration</h2>
+        <br>
+        <div id="div">
+          <i class="ri-user-line"></i>
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div id="div" >
+            <i class="ri-mail-line"></i>
+            <input type="email" placeholder="Enter your email"/>
+        </div>
+        <div id="div">
+            <i class="ri-lock-line"></i>
+            <input type="password" placeholder="create a password">
+            <i class="ri-eye-close-line"></i>
+        </div>
+        <div id="div">
+            <i class="ri-lock-line"></i>
+            <input type="password" placeholder="confirm a password">
+            <i class="ri-eye-close-line"></i>
+        </div>
+         <div>
+           <input type="checkbox">
+           <label>I accept all terms & conditions</label>
+           </div>
+          <div>
+            <button>Register Now</button>
+          </div>
+          <div id="last">
+            <h6>Already have an account?</h6>
+            <a href="">Login Now</a>
+          </div>
+      </div>
     </div>
   </body>
 </html>
