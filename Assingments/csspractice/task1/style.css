@@ -4,8 +4,9 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding:50px; 
+  /* padding-top: 35px;
+  padding-bottom: 35px; */
 }
 .first {
   background-color: white;
@@ -33,7 +34,6 @@
   h3
   {
    margin-left:4px;
-   border-bottom:1px soid blue;
   }
   
 }

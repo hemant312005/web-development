@@ -1,0 +1,6 @@
+.main
+{
+    display:grid;
+    position: relative;
+    justify-content: space-between;
+}
