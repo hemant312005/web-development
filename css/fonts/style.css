@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+}
+.heading
+{
+    font-size: xx-large;
+    font-family: "Playfair Display", serif;
+}
+.subheading
+{
+    font-size: larger;
+    font-weight:700;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+#description span{
+    text-decoration:underline;
+    color: red;
+
+}
+main{
+    margin-top:20px;
+
+}
+pointer-head{
+    font-size: larger;
+
+}
+ul
+{
+    margin-left:20px;
+    list-style:"🤷‍♂️";
+    padding: 10px;
+    list-style-image:url();
+}
+ol{
+    margin-left:30px;
+    list-style:lower-greek;
+}
+.pointer-down
+{
+font-size:large;
+}
+footer
+{
+background-color: darkblue;
+width:100vw;
+bottom:0;
+margin:auto;
+padding-left:50%;
+
+}
+ol:first-line
+{
+    color: aqua;
+}
+ol li:first-child{
+    background-color: blueviolet;
+}
+ol li:last-child
+{
+    background-color: blueviolet;]
+}
+ol li:nth-child(odd
+)
+{
+    background-color: aqua;
+}
