@@ -1,6 +1,22 @@
-.main
+main
 {
-    display:grid;
-    position: relative;
+   display: flex;
+   justify-content:space-between;
+   column-gap: 50px;
+
+}
+#inside1
+{
+ display:flex;
+ justify-content:space-between;
+}
+#inside2
+{
+    display: flex;
+    justify-content: space-between;
+}
+#inside3
+{
+    display:flex;
     justify-content: space-between;
 }
