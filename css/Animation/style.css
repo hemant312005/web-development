@@ -1,0 +1,55 @@
+
+#hw
+{
+    width:2px;
+     height:2.5rem;
+    border:1px solid black;
+    text-wrap-mode:nowrap;
+    transition: width 2s;
+    overflow: hidden;
+    color: green;
+
+}
+#hw:hover
+{
+    width:600px;
+    transition: width 2s color 2s;
+
+}
+#welcome{
+    background-color:rgb(231, 225, 225);
+    width:10%;
+}
+
+#welcome:after{
+    content:"❤️";
+}
+#welcome:before
+{
+    content: "🎶";
+}
+#box
+{
+height:20px;
+border:1pz solid #000000;
+width:10px;
+}
+#box1:hover{
+    width:500px;
+    transition: all 2s linear;
+}
+#main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border:2px solid black;
+    height:150px;
+    width:150px;
+}
+#main:hover
+{
+transform:transform(1);
+}
+
