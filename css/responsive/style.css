@@ -1,0 +1,35 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+#badadaba
+{
+    display:grid;
+    justify-content: space-around;
+    flex-direction: column;
+    grid-template-columns:auto auto auto auto ;
+    padding:20px;
+
+    .box
+    {
+        width:200px;
+        height:300px;
+        border:1px solid black;
+
+    }
+    #para1
+    {
+ display:flex;
+ 
+    }
+    @media screen and (max-width:1000px)
+    {
+      #badadaba
+      {
+        grid-template-columns: auto auto auto;
+        flex-direction:column;
+        row-gap:20px;
+      }
+    }
+}
