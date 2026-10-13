@@ -9,4 +9,11 @@ for(let i=0;i<ar1.length;i++)
 [
     console.log(arr[i])
 ]
-
+// array in javacript have negative indexing also form -1 at last index of array 
+arr.splice(2,2);
+ar1.forEach(
+(Element) =>
+{
+ console.log(Element);
+}
+);
