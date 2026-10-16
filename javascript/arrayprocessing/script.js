@@ -16,8 +16,8 @@ const doublenumber=number.map(function(number)
 {
     return number*2;
 })
+
 console.log(doublenumber);
 console.log(number);
-// var F=ar2.filter((item)=> item !==99);
-// console.log("F"="f");
+
 
