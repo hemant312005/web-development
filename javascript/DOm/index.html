@@ -1,25 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM</title>
-</head>
-<body>
-    <h1>This is heading</h1>
+  </head>
+  <body>
+    <h1>This is Heading</h1>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, aut!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem,
+      earum!
     </p>
-    <input type="text" placeholder="NAME">
+
     <div>
-        <label  onclick="submit()" for="">full NAME</label>
-        <input type="text">
-        <br>
-        <label  onclick="submit()" for="">Email</label>
-        <input type="email">
-        <br>
-        <button onclick="submit()">submit data</button>
+      <label for="fullName">Full Name</label>
+      <input type="text" name="fullName" id="fullName" />
+      <br /><br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      <label for="phone">Phone</label>
+      <input type="number" name="phone" id="phone" />
+      <br /><br />
+      <label for="DOB">Email</label>
+      <input type="date" name="DOB" id="DOB" />
+      <br /><br />
+      <label for="Gender">Gender</label>
+      <select name="Gender" id="Gender">
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+      </select>
+      <br /><br />
+      <button onclick="submit()">Submit Data</button>
+      <button onclick="submit2()">Submit</button>
     </div>
+      <div>
+        <h2>Web development</h2>
+        <p>Learn Html and javascript</p>
+        <button>Start Learning</button>
+      </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
