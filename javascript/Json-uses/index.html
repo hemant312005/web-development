@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar bg-primary px-5">
+        <div class="navbar-brand text-light">
+          Dynamic DOM Creation & Manipulation
+        </div>
+        <div class="nav-item">
+          <div class="nav-link text-light">Sample</div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container p-4 rounded shadow bg-white mt-3 border" id="task1">
+        <h1 class="text-primary">Content</h1>
+        <hr />
+        <!-- <h2 class="text-info">Sub Heading</h2> -->
+      </div>
+
+      <hr />
+      <div
+        class="container p-4 rounded shadow bg-white mt-3 border"
+        id="myList"
+      ></div>
+
+      <hr />
+      <div class="container p-4 rounded shadow bg-white mt-3 border">
+        <div class="row" id="card-parent">
+          <div class="col-3 p-3">
+            <div class="p-2 border shadow rounded">
+              <h3>Title</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum a,
+                dolorum ratione obcaecati iure veritatis error incidunt maxime
+                sed optio!
+              </p>
+              <div class="row px-3">
+                <div class="col-6 p-2 d-grid">
+                  <button class="btn btn-outline-primary w-full">Test 1</button>
+                </div>
+                <div class="col-6 p-2 d-grid">
+                  <button class="btn btn-primary w-full">Test 2</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
