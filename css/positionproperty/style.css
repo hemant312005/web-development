@@ -48,3 +48,27 @@ border-radius:10px;
     width:fit;
     height:inherit;
 }
+.box {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.box1 {
+  background-color: lightblue;
+}
+
+.box2 {
+  background-color: lightgreen;
+}
+
+.box3 {
+  background-color: pink;
+}
+.box2 {
+  background-color: lightgreen;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}

@@ -47,3 +47,25 @@ function pallindrome(str)
 }
 pallindrome("majmajn");
 
+let name=new Array("j","m","k","i");
+console.log(name);
+let nam=["he","jej"];
+nam.push("hellow")
+nam.pop()
+nam.pop()
+console.log(nam);
+nam.map((element) =>{console.log(element)})
+// for(let i of nam)
+// {
+//    console.log(i);
+// }
+//  console.log(name.splice(2,2,"hello"))
+// console.log(name)
+console.log(name.indexOf("i"))
+console.log(name.includes("i"))
+
+const array=new Array(1,2,3,4,5,6,7,8,9)
+let result1=array.filter((element)=>{
+    return element!=6;
+})
+console.log(result1);
