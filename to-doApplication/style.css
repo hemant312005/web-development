@@ -1,0 +1,35 @@
+header{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+    background-color:#5E4FED ;
+    height:180px;
+    text-align: center;
+    .container{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+       row-gap: 15px;
+}
+}
+section
+{
+    .container{
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        button
+        {
+            margin-top: 10px;
+            height:60px;
+            width:150px;
+            background-color:#1B74FC ;
+            border-radius:5px;
+            a{
+                text-decoration: none;
+            }
+        }
+
+    }
+}
