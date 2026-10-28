@@ -1,0 +1,1 @@
+let str1=Array.from(st);

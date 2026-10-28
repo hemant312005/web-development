@@ -1,0 +1,1 @@
+console.log(name.splice(2,2,"hello"))
