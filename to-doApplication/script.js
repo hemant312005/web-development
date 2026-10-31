@@ -11,15 +11,17 @@ function addTask() {
   BUTTON.classList.add("btn", "btn-danger", "btn-sm", "ms-3");
   BUTTON.textContent = "Delete";
   BUTTON.onclick = () => LI.remove();
-  
-  const BUTTON1= document.createElement("button");
-  BUTTON1.classList.add("btn", "btn-danger", "btn-sm", "ms-3");
-  BUTTON1.textContent = "Edit";
+  const EDitbtn=document.createElement("button");
+  EDitbtn.classList.add("btn", "btn-danger", "btn-sm", "ms-3");
+  EDitbtn.textContent="EDit";
+  EDitbtn.onclick=()=>{
+    SPAN.contentEditable=true;
+    SPAN.focus()};
+  LI.append(SPAN);
+  LI.append(BUTTON);
+  LI.append(EDitbtn);
 
-  LI.appendChild(SPAN);
-  LI.appendChild(BUTTON);
-
-  document.getElementById("taskList").appendChild(LI);
-
+  document.getElementById("taskList").append(LI);
   document.getElementById("taskInput").value = "";
+
 }
